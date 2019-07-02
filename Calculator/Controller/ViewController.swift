@@ -1,6 +1,6 @@
 import UIKit
 class ViewController: UIViewController {
-    
+    //a variable to Check the overall condition if a symbol operator was hit etc
     private var isFinishedTypingNumber: Bool = true
     private var displayValue: Double {
         get {
@@ -13,21 +13,19 @@ class ViewController: UIViewController {
             displayLabel.text = String(newValue)
         }
     }
-    
     private var calculator = CalculatorLogic()
     
     @IBOutlet weak var displayLabel: UILabel!
+    
     @IBAction func calcButtonPressed(_ sender: UIButton) {
       
-        
-        
         isFinishedTypingNumber = true
         
         calculator.setNumber(displayValue)
         
         if let calcMethod = sender.currentTitle{
             
-            
+    
             if let result = calculator.calculate(symbol: calcMethod) {
                 displayValue = result
             }
