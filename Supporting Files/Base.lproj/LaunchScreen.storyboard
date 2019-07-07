@@ -17,12 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launchimage" translatesAutoresizingMaskIntoConstraints="NO" id="nhR-8f-lQK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="094pg3oinqc01" translatesAutoresizingMaskIntoConstraints="NO" id="nhR-8f-lQK">
                                 <rect key="frame" x="-255" y="-225" width="969" height="1346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Joseph Rogers @JoeRogersiOSDev" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6p-5V-Yub">
+                                <rect key="frame" x="87" y="753" width="240" height="82"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="g6p-5V-Yub" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9YC-kL-3rX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g6p-5V-Yub" secondAttribute="bottom" constant="27" id="DGR-he-4g2"/>
+                            <constraint firstItem="g6p-5V-Yub" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="709" id="fOi-V8-Gtf"/>
+                            <constraint firstItem="g6p-5V-Yub" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="p8p-Ha-Ltc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -32,6 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launchimage" width="820" height="312"/>
+        <image name="094pg3oinqc01" width="960" height="986"/>
     </resources>
 </document>

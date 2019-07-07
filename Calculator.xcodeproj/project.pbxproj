@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADB196182146629E00C5317F /* Build configuration list for PBXProject "Calculator App" */;
+			buildConfigurationList = ADB196182146629E00C5317F /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -329,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoeRogers.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -347,14 +347,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoeRogers.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADB196182146629E00C5317F /* Build configuration list for PBXProject "Calculator App" */ = {
+		ADB196182146629E00C5317F /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB1962D214662A000C5317F /* Debug */,
