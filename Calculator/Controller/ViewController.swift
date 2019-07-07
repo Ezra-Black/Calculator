@@ -1,11 +1,11 @@
 import UIKit
 class ViewController: UIViewController {
-    //a variable to Check the overall condition if a symbol operator was hit etc
+    
     private var isFinishedTypingNumber: Bool = true
     private var displayValue: Double {
         get {
             guard let number = Double(displayLabel.text!) else {
-                fatalError("cannot convert display label to a Double")
+               return 0
             }
             return number
         }
